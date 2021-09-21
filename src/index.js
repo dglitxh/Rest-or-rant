@@ -9,11 +9,11 @@ import { former } from './contact'
 
 
 const home = document.getElementById('content')
-
-
-let container = home.appendChild(document.createElement('div'))
+let container = document.createElement('div')
 container.className = 'container'
-
+home.appendChild(container)
+let cstyle = document.querySelector('.container')
+cstyle.style.background = 'rgba(0, 0, 0, 0.294)'
    
 
    let defaultHome = () => {
@@ -24,6 +24,7 @@ container.className = 'container'
         let child = appender().appendTo('ul', 'li', 'list', `${i}: ${schedule[i]}`)
         container.appendChild(child)
     }
+    cstyle.style.background = 'rgba(0, 0, 0, 0.294)'
    };
    defaultHome()
 
@@ -33,17 +34,21 @@ menu.addEventListener('click', ()=>{
     container.innerHTML = ''
     container.appendChild(menu_card(maindishes, 'Main Dishes'))
     container.appendChild(menu_card(deserts, 'Deserts'))
-    
+    cstyle.style.background = 'none'
 })
 
 const homekey = document.getElementById('home')
 homekey.addEventListener('click', ()=>{
     container.innerHTML = ''
     defaultHome() 
+    
 })
 
 const contact = document.getElementById('contact')
 contact.addEventListener('click', () => {
+    
     container.innerHTML = ''
     container.appendChild(former(3))
+    cstyle.style.background = 'none'
+    
 })

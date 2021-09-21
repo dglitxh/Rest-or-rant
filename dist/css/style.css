@@ -1,5 +1,5 @@
 body{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(7, 52, 53, 0.24)), url(./img/hero.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(7, 52, 53, 0.418)), url(./img/hero.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -40,15 +40,18 @@ body{
 
 #content{
     display: flex;
-    background-color: rgba(0, 0, 0, 0.294);
     color: azure;
     justify-content: center;
-    margin-left: 15%;
-    margin-right: 15%;
     padding: 5%;
     text-align: center;
     justify-content: center;
     font-size: 80;
+}
+
+.container{
+    padding: 2%;
+    width: 60vw;
+    position: relative;
 }
 
 
