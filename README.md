@@ -1,0 +1,1 @@
+A simple restaurant page made with javascript.
