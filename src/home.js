@@ -39,6 +39,7 @@ export const schedule = {
     'Wednesday': '6am - 5pm',
     'Thursday': '8am - 7pm',
     'Friday': '8am - 7pm',
+    'weekends': '9am - 8pm'
 }
 
 
