@@ -28,9 +28,7 @@ If you’ve picked up this book, you’re probably aware of the extraordinary pr
         The consequences of this sudden progress extend to almost every industry. But in
         order to begin deploying deep-learning technology to every problem that it could
         solve, we need to make it accessible to as many people as possible, including non-
-        experts—people who aren’t researchers or graduate students. For deep learning to
-        reach its full potential, we need to radically democratize it.
-        yessir
+        experts—people who aren’t researchers or graduate students.
             `
 
 export const schedule = {
