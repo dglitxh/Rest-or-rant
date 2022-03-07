@@ -1,3 +1,3 @@
-A simple restaurant page made with vanilla javascript.
+A restaurant page made with vanilla javascript.
 
 site: https://mukaase.netlify.app
